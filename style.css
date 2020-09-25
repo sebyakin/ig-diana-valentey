@@ -1,0 +1,123 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 105vw;
+    min-height: 215vh;
+    background-color: rgb(225, 245, 255)
+}
+
+
+.circle{
+    width: 150px;
+    height: 150px;
+    top:105px;
+    left: 500px;
+    border-radius:50% ;
+    background-color:blue;background: rgb(96,230,255);
+    background: linear-gradient(90deg, rgba(255,253,99,1) 14%, rgba(96,230,255,1) 41%, rgba(162,255,0,1) 62%, rgba(125,110,242,1) 96%);
+    border:5px solid rgb(255, 0, 149);
+    transform: rotate(90deg);
+    
+}
+.circle:hover{
+    transform: rotate(360deg);
+}
+
+
+.frame{
+    width: 1050px;
+    height:1300px ;
+    top: 60px;
+    left: 60px;
+    border-radius: 3%;
+    background-color: rgb(122, 170, 241);
+    border:5px solid rgb(255, 0, 170)
+    
+    
+
+}
+
+.frame-2{
+    width: 360px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    border-radius: 3%;
+    background-color: rgba(252, 150, 221);
+    background: rgb(96,230,255);
+background: linear-gradient(90deg, rgba(96,230,255,1) 5%, rgba(252,176,69,1) 50%, rgba(235,146,255,1) 79%);
+    border:5px solid rgb(255, 0, 149)
+}
+.frame-2:hover{
+    transform: skewX(60deg);
+}
+
+
+.circle-2{
+    width: 750px;
+    height: 750px;
+    top:405px;
+    left: 190px;
+    border-radius:50% ;
+    background-color:blue;background: rgb(96,230,255);
+    background: linear-gradient(90deg, rgba(96,230,255,1) 5%, rgba(252,176,69,1) 50%, rgba(235,146,255,1) 79%);
+    border:5px solid rgb(255, 0, 149);
+}
+
+.circle-3{
+    width: 70px;
+    height: 70px;
+    top:105px;
+    left: 700px;
+    border-radius:50% ;
+    background-color:blue;background: rgb(96,230,255);
+    background: linear-gradient(90deg, rgba(96,230,255,1) 5%, rgba(252,176,69,1) 50%, rgba(235,146,255,1) 79%);
+    border:5px solid rgb(255, 0, 149);
+}
+
+
+.circle-4{
+    width: 70px;
+    height: 70px;
+    top:105px;
+    left: 800px;
+    border-radius:50% ;
+    background-color:blue;background: rgb(96,230,255);
+    background: linear-gradient(90deg, rgba(96,230,255,1) 5%, rgba(252,176,69,1) 50%, rgba(235,146,255,1) 79%);
+    border:5px solid rgb(255, 0, 149);
+}
+
+
+
+.square{
+    width: 80px;
+    height: 80px;
+    top: 150px;
+    left: 910px;
+    border-radius: 5%;
+    border-color: rgb(255, 0, 149);
+    background-color: rgb(255, 0, 149);
+    transform: rotate(45deg);
+}
+
+.square:hover{
+    transform: rotate(180deg);
+}
+
+
+.circle-5{
+    width: 610px;
+    height: 610px;
+    top:470px;
+    left: 260px;
+    border-radius:50% ;
+    background-color: rgb(10, 218, 255);
+    background:  linear-gradient(0deg, rgba(50,252,255,1) 0%, rgba(60,252,255,1) 55%, rgba(7,0,59,1) 91%);
+    border:5px solid rgb(255, 0, 149);
+
+}
